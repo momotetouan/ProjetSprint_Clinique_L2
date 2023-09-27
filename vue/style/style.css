@@ -1,0 +1,192 @@
+body, html {
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+body {
+background-color: #F1F4F9;
+}
+
+p {
+text-align: justify
+}
+
+
+form{
+width: 75%;
+margin: auto;
+}
+
+fieldset{
+background-color: rgb(247,247,247);
+border-radius: 5px;
+margin-bottom: 10px;
+border-color: #CCC;
+border: 1px;
+border-style: solid;
+}
+
+fieldset:hover{
+box-shadow :
+0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px
+rgba(208, 223, 226, 0.4) inset;
+}
+
+legend{
+padding: 0px 10px;
+color: #237DAC;
+border-right: #CCC 1px solid;
+border-left: #CCC 1px solid;
+}
+
+label{
+background-color: #09C;
+color: #FFF;
+display: block;
+width: 50%;
+float: left;
+padding-right: 1%;
+padding-bottom: 1%;
+padding-top: 1%;
+margin-left: 1%;
+text-align: right;
+}
+
+
+
+
+
+input {
+color: #414A51;
+padding-top: 1%;
+padding-left: 1%;
+padding-bottom: 1%;
+font-size: 14px;
+margin-left: 1%;
+border-color: #CCC;
+
+
+}
+
+
+
+
+input[type=submit] {
+width: 98%;
+background-color: #09C;
+color: #FFF;
+letter-spacing: 1px;
+border-radius: 1px;
+margin-bottom: 20px;
+border-color: #DDEEFF;
+border: 1px;
+border-style: solid;
+}
+
+
+
+
+input[type=submit]:hover {
+background-color: #87CEFA;
+color: #414A51;
+box-shadow: 0 0 5px #6495ED;
+}
+
+
+
+
+.msg{
+background-color: white;
+color: black;
+text-align: start;
+padding-top: 1%;
+padding-left: 1%;
+padding-bottom: 1%;
+font-size: 14px;
+margin-left: 1%;
+width: 48%;
+border-color: #CCC;
+border: 1px;
+border-style: solid;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #09C;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: black;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  h1{
+      text-align: center;
+  }
+
+  table { 
+    width:50%;
+    height:50%;
+    margin: auto;
+    border: 0;
+    border-collapse : collapse;
+     
+    
+     }
+    
+     table th{
+     background-color:#2ECEC6;
+     border-color:#2ECEC6;
+     font-weight : bold; /* on met le texte en gras */
+     font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
+     font-size : 40px; /* hauteur du texte : 12 pixels */
+     padding:90px;
+     color:white;
+     }
+    table tr{
+    background-color:white;
+     }
+     
+    table td{
+    width:60px;
+    height:60px;
+    text-align:center;
+    padding:10px;
+     }
+     
+    .exam{
+     border-radius:50px;
+    background-color:#2ECEC6;
+     }
+
+     .indisp{
+       background-color: red;
+       color: blanchedalmond;
+     }
+  
+ 
+  
+
+
+
