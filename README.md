@@ -31,18 +31,6 @@ Le projet suit une architecture MVC (Modèle-Vue-Contrôleur) pour garantir la s
 
 Avant de commencer le développement, nous avons créé un Modèle Conceptuel de Données (MCD) et déduit le Modèle Logique de Données Relationnelles (MLDR). Ces schémas sont inclus dans la documentation du projet.
 
-## Installation
-
-1. Clonez ce référentiel sur votre ordinateur.
-
-2. Configurez votre serveur web (ex. : Apache) pour servir le dossier `public` comme racine du site.
-
-3. Importez la structure de la base de données à partir du fichier SQL fourni dans `database/`.
-
-4. Configurez la connexion à la base de données dans `app/config/database.php`.
-
-5. Lancez le site web en accédant à l'URL de votre serveur.
-
 ## Utilisation
 
 - Accédez à la page d'accueil et connectez-vous avec les identifiants appropriés en fonction de votre rôle (agent, médecin, directeur).
